@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS Variables */
+:root{
+    --color-primary: #FFCB22;
+    --color-secondary: #23262C;
+    --color-tertiary: #D0C6B6;
+    --color-quaternary: #F5F2EE;
+    --color-text: #72747C;
+
+    --max-width: 144rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Typography and colors */
+html{
+    /* 62.5% of 16px = 10px */
+    font-size: 62.5%;=
+}
+
+body{
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.6rem;
+    color: var(--color-text);
+}
+p{
+    line-height: 2.5rem;
+}
+h1{
+    font-size: 5.5rem;
+    color: var(--color-secondary);
+}
+h2{
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+    margin: 0;
+}
+
+/* Common and Shared styles */
+.max__width{
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.section__margin{
+    margin-bottom: 12rem;
+}
+.margin__bottom{
+    margin-bottom: 3rem;
+}
+.yellow__color{
+    color: var(--color-primary);
+}
+.display__flex{
+    display: flex;
+}
+.text__center{
+    text-align: center;
+}
+.border__redius{
+    border-radius: .8rem;
+}
+.btn{
+    border: none;
+}
+.btn__primary{
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    padding: 1.6rem 3.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn__primary:hover{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+/* ------header-section */
+.header-section{
+    background-color: var(--color-quaternary);
+    padding-top: 3rem;
+}
+
+/* Navbar */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item:hover{
+    color: var(--color-primary);
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin-left: 6rem;
+    color: var(--color-secondary);
+}
+
+/* hero section */
+#line-heading{
+    position: absolute;
+    top: 26rem;
+    right: 65rem;
+}
+.hero-description{
+    margin: 0 30rem 2rem 30rem ;
+}
