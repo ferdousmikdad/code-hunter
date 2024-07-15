@@ -6,24 +6,29 @@
     <title>Code Hunter</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
   </head>
   <body>
     <header class="header-section">
       <nav class="display__flex navbar max__width section__margin">
-        <h2><span class="yellow__color">Code</span> Hunter</h3>
-        <ul class="display__flex nav-items">
+        <div>
+          <h2><span class="yellow__color">Code</span> Hunter</h2>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="nav-icon"><i class="fa-solid fa-bars"></i></label>
+        <ul id="nav-items" class="display__flex">
           <li><a class="nav-item" href="">Home</a></li>
           <li><a class="nav-item" href="">About</a></li>
-          <li><a class="nav-item">Contact Us</a></li>
+          <li><a class="nav-item" href="">Contact Us</a></li>
           <li><a class="nav-item btn__primary border__redius" href="">Login</a></li>
         </ul>
       </nav>
       <section class="max__width text__center">
           <h1 class="margin__bottom">Innovative Coders <br> Crafting Tomorrow's Solutions</h1>
-          <img id="line-heading" src="assets/line_yellow.svg" alt="">
+          <!-- <img id="line-heading" src="assets/line_yellow.svg" alt=""> -->
           <p class="hero-description"> Pioneering cutting-edge solutions, pushing boundaries in technology. We're dedicated to shaping a future br where creativity meets functionality, setting new standards in coding excellence.</p>
           <button class="btn btn__primary border__redius margin__bottom">Explore More</button>
-          <img class="border__redius margin__bottom" src="assets/hero_img.png" alt="">
+          <img class="hero-image border__redius margin__bottom" src="assets/hero_img.png" alt="">
       </section>
     </header>
     <main></main>

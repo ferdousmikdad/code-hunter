@@ -1,3 +1,58 @@
-@media screen and (max-width: 768px) {
-    
+/* nav with hero section */
+@media screen and (max-width: 992px) {
+    h1{
+        font-size: 4rem;
+    }
+    .header-section{
+        margin: 0;
+    }
+    .section__margin{
+        margin-bottom: 5rem;
+    }
+    .navbar{
+        padding: 0 2rem;
+    }
+    nav h2{
+        font-size: 3rem;
+    }
+    /* #click{
+        display: none;
+    } */
+    .navbar ul{
+        position: absolute;
+        display: block;
+        height: 90vh;
+        width: 100%;
+        top: 9rem;
+        left: -100%;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        transition: all 0.3s ease; 
+        border-radius: .8rem;
+        background-color: var(--color-secondary);
+    }
+    #click:checked ~ ul{
+        left: 0;
+    }
+    .navbar ul li{
+        margin-top: 5rem;
+    }
+    .navbar ul li a{
+        color: aliceblue;
+    }
+    .nav-icon{
+        display: block;
+    }
+    .hero-description{
+        margin: 0 2rem;
+        margin-bottom: 2rem;
+    }
+    .hero-image{
+        object-fit: cover;
+        width: 100%;
+    }
+    #line-heading{
+        display: none;
+    }
 }
